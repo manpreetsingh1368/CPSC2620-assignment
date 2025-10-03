@@ -28,6 +28,44 @@ A pointer could work but reference_wrapper is simpler to use here because it act
 Note: makefile will generate 3 different test 
  entering command ./test_* will generate 3 different images which shows the 3 diferent pattern made using turtle class
 
+---
+
+## 🧪 Assignments Included
+
+| Test Executable | Description                        | Status |
+|-----------------|------------------------------------|--------|
+| `d1a`           | Basic forward movement             | ✅     |
+| `d1b`           | Pen up/down behavior               | ✅     |
+| `d2a`           | Turning (left/right)               | ✅     |
+| `d2b`           | Move to specific coordinates       | ✅     |
+| `d2c`           | Copy/assignment of Turtle object   | ✅     |
+
+> ✅ = Tested and Working  
+> 💡 Each test creates a drawing using the Turtle graphics system built on the CImg library.
+
+---
+
+## 🛠️ Building the Project
+
+This project uses a Makefile for easy compilation.
+
+### ✅ Prerequisites
+
+- `g++` (C++ compiler)
+- `X11` libraries (for graphical display)
+- CImg header file (`include/CImg.h`)
+
+### 🔧 Build Commands
+
+```bash
+# Build all test cases
+make all
+
+# Run individual test
+./d1a
+./d2c
+
+
 
 
 
